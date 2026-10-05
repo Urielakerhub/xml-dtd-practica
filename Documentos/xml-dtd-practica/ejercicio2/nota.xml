@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nota SYSTEM "nota.dtd">
+<nota>
+    <para>María López</para>
+    <de>Juan Pérez</de>
+    <titulo>Reunión de proyecto</titulo>
+    <contenido>La reunión será el viernes a las 10:00 horas.</contenido>
+</nota>

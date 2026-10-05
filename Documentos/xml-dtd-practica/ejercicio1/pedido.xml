@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido>
+    <destinatario>Juan Pérez</destinatario>
+    <articulo>Computadora portátil</articulo>
+    <direccion>
+        <calle>Av. Universidad</calle>
+        <numero>123</numero>
+        <piso>2</piso>
+        <letra>A</letra>
+    </direccion>
+    <fecha_entrega>2026-10-10</fecha_entrega>
+</pedido>

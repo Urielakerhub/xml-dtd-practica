@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE matricula SYSTEM "matricula.dtd">
+<matricula>
+    <personal>
+        <dni>12345678A</dni>
+        <nombre>Uriel López</nombre>
+        <titulacion>Ingeniería en Sistemas</titulacion>
+        <curso_academico>2026-2027</curso_academico>
+        <domicilios>
+            <domicilio tipo="familiar">
+                <calle>Av. Reforma</calle>
+                <numero>100</numero>
+                <ciudad>Hermosillo</ciudad>
+            </domicilio>
+            <domicilio tipo="habitual">
+                <calle>Calle Universidad</calle>
+                <numero>25</numero>
+                <ciudad>Hermosillo</ciudad>
+            </domicilio>
+        </domicilios>
+    </personal>
+    <pago>
+        <tipo_matricula>Ordinaria</tipo_matricula>
+    </pago>
+</matricula>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="liga">
+    <xs:complexType>
+      <xs:sequence><xs:element name="jornada" maxOccurs="unbounded"><xs:complexType>
+        <xs:sequence><xs:element name="partido" maxOccurs="unbounded"><xs:complexType>
+          <xs:sequence>
+            <xs:element name="equipoLocal"><xs:complexType><xs:sequence><xs:element name="nombre" type="xs:string"/></xs:sequence></xs:complexType></xs:element>
+            <xs:element name="equipoVisitante"><xs:complexType><xs:sequence><xs:element name="nombre" type="xs:string"/></xs:sequence></xs:complexType></xs:element>
+            <xs:element name="marcador"><xs:complexType><xs:sequence><xs:element name="golesLocal" type="xs:nonNegativeInteger"/><xs:element name="golesVisitante" type="xs:nonNegativeInteger"/></xs:sequence></xs:complexType></xs:element>
+          </xs:sequence>
+          <xs:attribute name="id" type="xs:ID" use="required"/><xs:attribute name="fecha" type="xs:date" use="required"/><xs:attribute name="estadio" type="xs:string"/><xs:attribute name="estado" type="xs:string" use="required"/>
+        </xs:complexType></xs:element></xs:sequence>
+        <xs:attribute name="numero" type="xs:positiveInteger" use="required"/><xs:attribute name="fecha" type="xs:date" use="required"/>
+      </xs:complexType></xs:element></xs:sequence>
+      <xs:attribute name="temporada" type="xs:string" use="required"/><xs:attribute name="competencia" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
